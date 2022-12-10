@@ -4,12 +4,12 @@ p {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
 }
-a {
+.link {
   padding: 5px;
   text-decoration: none;
   color: white;
 }
-a:hover {
+.link:hover {
   color: red;
 }
 * {

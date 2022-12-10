@@ -1,5 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 function Popluar() {
-  return <h1>popluar page</h1>;
+  return (
+    <>
+      <h1>Popluar page</h1>
+      <Link to="/" className="link">
+        Home
+      </Link>
+      ;
+    </>
+  );
 }
+
 export default Popluar;
